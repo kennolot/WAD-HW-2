@@ -17,6 +17,10 @@ function loadPosts() {
 }
 */
 
+function dropdown() {
+    document.getElementById("dropdown").classList.toggle("show");
+}
+
 function fetchLocalPosts() {
     return fetch('src/js/objects.json')
         .then(response => response.json())
@@ -101,3 +105,5 @@ function loadPosts() {
 }
 
 loadPosts();
+
+

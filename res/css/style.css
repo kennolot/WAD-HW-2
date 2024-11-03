@@ -214,6 +214,24 @@ nav > div { /* usage of child selector */
     font-size: 3vh;
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #666666;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.dropdown p {
+    color: white;
+}
+
+.show {
+    display:block;
+}
 
 /* --------------------------------------------------------------------------------- */
 
